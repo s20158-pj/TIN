@@ -1,0 +1,30 @@
+html{
+    background-image: url("land.jpg");
+    background-size: cover;
+}
+
+body{
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.column1{
+    width: 33%;
+    float: left;
+    background-color: cyan;
+}
+
+.column2{
+    width: 67%;
+    overflow: scroll;
+    background-color: darkcyan;
+}
+
+#ping_img{
+    width: 200px;
+    height: 120px;
+}
+
+.footer{
+    
+}
