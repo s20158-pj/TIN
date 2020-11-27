@@ -57,6 +57,7 @@ ul {
     list-style-type: none;
     text-decoration: none;
     margin: 0;
+    padding: 0;
 }
 #upper_ul {
     background-color: blue;
@@ -74,11 +75,15 @@ a {
     color: white;
 }
 
-li:hover {
+#under_ul li {
+    padding-left: 40px;
+}
+
+ul li:hover {
     background-color: rgba(100,100,255,0.9);
 }
 
 p{
-    margin: 0px;
+    margin: 0;
     padding: 0.5em;
 }
