@@ -1,143 +1,84 @@
-h1 {
-    color: blue;
-    font-size: 42px;
-}
 body {
-    background-image: url("https://mobirank.pl/wp-content/uploads/2020/07/fallout-serial-prime-video-please-stand-by-1024x722.jpg");
+    background-image: url("icon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 90%;
+    margin: auto;
 }
-/* Single Elements */
-#little-image {
-    height: 150px;
-    width: 400px;
-}
-a:visited {
-    color: white;
-}
-a:hover {
-    background-color: skyblue;
-    opacity: 0.7;
-}
-
-/* Classes */
-
-    /* Navigation */
-.left-menu {
-    font-size: 25px;
-    background-color: rgba(135, 206, 250, 0.2);
-    width: 15%;
-    height: 800px;
-    float: left;
-    margin-left: 5%;
-    
-}
-.left-menu ul{
-    padding: 0;
-    margin:0
-}
-.left-menu li{
-    list-style: none
-}
-.left-menu li a{
-    width: 90%; 
-    padding: 5px 5%; 
-    margin: 0; 
-    color: white;
-    display: block;  
-    border-bottom: 1px solid #3377AA; 
-    text-decoration: none;
-}
-.left-menu>ul>li>a {
-    font-weight: bold; 
-    background: #6699E4;
-}
-.left-menu li li a {
-    background: #4477DD; 
-    padding-left:15%; 
-    width: 80%;
-}
-
-/* .left-menu > .mama-link {
-    background-color:rgb(17, 122, 226);
-    padding: 5px 5%;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    border-bottom: 1px solid #3377AA;
-}
-.left-menu > .Mama-link > .child-links {
-    background-color: rgb(31, 95, 160);
-    padding-left: 15%;
-    width: 80%;
-}
-.list-link {
-    padding: 5px;
-    list-style-type: none;
-    text-decoration: none;
-} */
-    /* end Navigation */
-.main {
-    background-color:rgb(121, 161, 248);
-    margin-left: 20%;
-    margin-right: 5%;
+main {
+    display: block;
+    height: 80%;
     overflow-y: scroll;
-    height: 800px;
-    padding-left: 10px;
+    background-color: lightskyblue;
+    padding: 5px;
 }
-    /* Forms */
-/* .font-size{
-    font-size: 20px;
-} */
-.left-form{
-    float: left;
-    width: 40%;
-    padding-left: 50px;
-    zoom: 1.5;
+img {
+    max-width: 20%;
+    height: auto;
 }
-.right-form{
-    float: right;
-    width: 50%;
-    zoom: 1.5;
-}
-    /* End Forms */
-    /* Tables */
-.table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
 
+.form {
+    columns: 15em 2;
 }
-.columns {
-    background-color: rgb(70, 158, 180);
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid lightskyblue;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background: blue;
+}
+
+tr {
+    background: lightblue;
 }
 
 tr:nth-child(2n) {
-    background: lightskyblue;
+    background-color: lightskyblue;
+}
+nav {
+    height: 80%;
+    background-color: rgba(173,216,230,0.5);
+    float: left;
+    width:20%;
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+#upper_ul {
+    background-color: blue;
+    padding: 0;
+}
+#under_ul {
+    background-color: lightblue;
+}
+footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+a {
+    color: white;
 }
 
-td {
-    padding: 10px;
+li:hover {
+    background-color: rgba(100,100,255,0.9);
 }
-th {
-    padding: 10px;
+
+p{
+    margin: 0px;
+    padding: 0.5em;
 }
-    /* End Tables */
-.footer {
-    position: center;
-    color: white;
-    text-align: center;
-    background-color: mediumblue;
-    margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px 2%;
-    font-size: 20px;
-}
-.footer p {
-    margin: 15px;
-} 
