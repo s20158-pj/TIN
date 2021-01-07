@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>2 zjazd</title>
     <link href="style2.css" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	  <script src="js/Zjazd4/zad1.js"></script>
 	  <script src="js/Zjazd4/zad2.js"></script>
 	  <script src="js/Zjazd4/zad3.js"></script>
@@ -11,14 +12,20 @@
 	  <script src="js/Zjazd4/zad6.js"></script>
 	  <script src="js/Zjazd4/zad78.js"></script>
 	  <script src="js/Zjazd4/zad9.js"></script>
+	  <script src="js/Zjazd4/zad10.js"></script>
+	  <script src="js/Zjazd5/zad1.js"></script>
+	  <script src="js/Zjazd5/zad2.js"></script>
+	  <script src="js/Zjazd5/zad3.js"></script>
+	  <script src="js/Zjazd5/zad4.js"></script>
   </head>
 
   <body>
-    <nav>
+  <img id="burger_icon" src="burger.png" alt="burger icon">
+    <nav id="navbar">
       <ul id="upper_ul">
 	<li><a href="index.html">link</a>
 	  <ul id="under_ul">
-		  <a href="index.html"><li>link2</li></a>
+		  <li><a href="index.html">link2</a></li>
    	    <li><a href="index.html">link2</a></li>
 	    <li><a href="index.html">link2</a></li>
 	</ul></li>
@@ -44,6 +51,22 @@
 	lorem ipsum
 	<br>
 	<br>
+		  <div>
+			  <button class="accordion">Section 1</button>
+			  <div class="panel">
+				  <p>Lorem ipsum...</p>
+			  </div>
+
+			  <button class="accordion">Section 2</button>
+			  <div class="panel">
+				  <p>Lorem ipsum...</p>
+			  </div>
+
+			  <button class="accordion">Section 3</button>
+			  <div class="panel">
+				  <p>Lorem ipsum...</p>
+			  </div>
+		  </div>
       </div>
       <div class="div_form">
 	<h1>title 2</h1>
@@ -104,11 +127,33 @@
 	  </tr>
 	</table>
       </div>
+		<div>
+			<div id="button_DOM_container">
+				<button id="button_DOM_1" class="button_DOM">1</button>
+				<button id="button_DOM_2" class="button_DOM">2</button>
+				<button id="button_DOM_3" class="button_DOM">3</button>
+				<button id="button_DOM_4" class="button_DOM">4</button>
+			</div>
+			<div id="div_DOM_container">
+				<div class="div_DOM">
+				</div>
+				<div class="div_DOM">
+				</div>
+				<div class="div_DOM">
+				</div>
+				<div class="div_DOM">
+				</div>
+			</div>
+		</div>
+		<table id="table_DOM">
+
+		</table>
     </main>
     <footer>
       <p>Sample text 1</p>
       <p>Sample text 1</p>
       <p>Sample text 1</p>
     </footer>
+
   </body>
 </html>

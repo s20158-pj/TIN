@@ -11,6 +11,15 @@ main {
     padding: 10px;
 }
 
+#burger_icon {
+    width: 4%;
+    display: none;
+}
+
+#navbar {
+    display: block;
+}
+
 .information, .div_form {
     background: white;
     margin: 10px;
@@ -21,6 +30,30 @@ main {
 
 img {
     max-width: 100%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
 
 .form {
@@ -96,4 +129,38 @@ footer p{
     width: 30%;
     text-align: center;
     display: inline-block;
+}
+
+.button_DOM {
+    padding: 10px 35px;
+}
+
+#button_DOM_4 {
+    margin-bottom: 20px;
+}
+
+#div_DOM_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div_DOM {
+    border: 1px black solid;
+    width: 24%;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1163px) {
+
+    #burger_icon {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+        position: fixed;
+    }
+
 }

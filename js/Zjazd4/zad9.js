@@ -8,8 +8,8 @@ function factorialize(num) {
     }
   }
 
-function newtonsSymbol(numIdx, currHeight) {
-    return factorialize(numIdx) / (factorialize(currHeight) * factorialize(numIdx - currHeight));
+function newtonsSymbol(numX, height) {
+    return factorialize(numX) / (factorialize(height) * factorialize(numX - height));
 }
 
 function pascalsTraingle(height) {
